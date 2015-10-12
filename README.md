@@ -1,5 +1,7 @@
 # moorea-moment
 
+[![Dependency Status](https://david-dm.org/pdesterlich/moorea-moment.svg?theme=shields.io)](https://david-dm.org/pdesterlich/moorea-moment) [![devDependency Status](https://david-dm.org/pdesterlich/moorea-moment/dev-status.svg?theme=shields.io)](https://david-dm.org/pdesterlich/moorea-moment#info=devDependencies)
+
 additional function for moment objects
 
 ## function list
