@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pdesterlich/moorea-moment#readme",
   "devDependencies": {
-    "chai": "^3.3.0"
+    "chai": "^3.3.0",
+    "moment": "^2.10.6"
   }
 }
