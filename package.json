@@ -1,0 +1,26 @@
+{
+  "name": "moorea-moment",
+  "version": "0.1.0",
+  "description": "additional function for moment objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdesterlich/moorea-moment.git"
+  },
+  "keywords": [
+    "moorea",
+    "moment"
+  ],
+  "author": "Phelipe de Sterlich <p.desterlich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdesterlich/moorea-moment/issues"
+  },
+  "homepage": "https://github.com/pdesterlich/moorea-moment#readme",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  }
+}
