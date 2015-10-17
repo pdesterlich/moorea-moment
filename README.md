@@ -6,7 +6,8 @@ additional function for moment objects
 
 ## function list
 
-`minutesFromMidnight`: returns the number of minutes since midnight
+### minutesFromMidnight
+returns the number of minutes since midnight
 
 *example*
 
@@ -16,7 +17,9 @@ console.log(time.minutesFromMidnight());
 
 > 480
 ```
-`secondsFromMidnight`: returns the number of seconds since midnight
+
+### secondsFromMidnight
+returns the number of seconds since midnight
 
 *example*
 
