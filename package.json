@@ -1,6 +1,6 @@
 {
   "name": "moorea-moment",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "additional function for moment objects",
   "main": "index.js",
   "scripts": {
