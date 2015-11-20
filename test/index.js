@@ -1,9 +1,9 @@
 'use strict';
 
-var
-  should        = require('chai').should(),
-  moment        = require('moment'),
-  moorea_moment = require('../');
+var should        = require('chai').should();
+var moment        = require('moment');
+
+require('../');
 
 describe('moorea-moment', function () {
 
@@ -25,6 +25,27 @@ describe('moorea-moment', function () {
       done();
     });
 
+  });
+
+  describe('italianDayOfWeek', function () {
+
+    it('should return the correct day name for monday', function (done) {
+      var dayName = moment().day(1).italianDayOfWeek();
+      dayName.should.equal('lunedi');
+      done();
+    });
+
+    it('should return the correct day name for sunday', function (done) {
+      var dayName = moment().day(0).italianDayOfWeek();
+      dayName.should.equal('domenica');
+      done();
+    });
+
+    it('should return the correct day name for wednesday', function (done) {
+      var dayName = moment().day(3).italianDayOfWeek();
+      dayName.should.equal('mercoledi');
+      done();
+    });
   });
 
 });

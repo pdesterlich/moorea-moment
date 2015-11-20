@@ -29,3 +29,15 @@ console.log(time.minutesFromMidnight());
 
 > 28800
 ```
+
+### italianDayOfWeek
+returns the italian day name of the date
+
+*example*
+
+```javascript
+var date = moment().day(0);
+console.log(date.italianDayOfWeek());
+
+> domenica
+```
